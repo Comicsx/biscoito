@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+    padding: 239px 542px 319px;
+    display: grid;
+    
+    align-items: flex-start;
+    position: relative;
+    width: 1512px;
+    height: 982px;
+}
+
+main {
+    display: flex;
+    align-content: center;
+    border-radius: 5px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    text-align: center;
+
+    font-size: 24px;
+    line-height: 29px;
+    color: #34355B;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 293px;
+    height: 107px;
+
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+
+}
+
+p {
+    margin: 14px 54px 20px;
+    
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    text-align: center;
+
+    font-size: 15px;
+    line-height: 20px;
+    color: #34355B;
+}
+
+image {
+    display: flex;
+    align-items: center;
+}
+image:hover {
+scale: 1.5;
+}
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    
+    padding: 16px;
+    gap: 10px;
+    width: 174px;
+    height: 52px;
+
+    background: #FF9500;
+    border-radius: 4px;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+    font-size: 15px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+button:hover {
+    background-color: #dba252;
+}
+
+.screen1 {
+    margin: 48px 64px 64px;
+    padding: 0;
+}
+
+.screen2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 17px;
+
+    margin: 48px 64px;
+}
+
+
+h1 .screen2 {
+    width: 297px;
+    height: 58px;
+}
+
+/* muito importante o hide aqui ativa a função hide que está na class do html */
+.hide {
+    display: none;
+}
